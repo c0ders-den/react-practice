@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Introductor from './Introductor';
+import Ticker from './Ticker';
+
+import "@clayui/css/lib/css/atlas.css";
+import MultiSelect from './MultiSelect';
+import AppBar from './AppBar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <AppBar />
+    {/* <Ticker />
+    <Ticker timeZone="Asia/Kolkata" />
+    <Ticker timeZone="Europe/Berlin" />
+    <Ticker timeZone="Australia/Sydney" /> */}
+    {/* <MultiSelect /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

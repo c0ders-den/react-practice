@@ -1,0 +1,21 @@
+.application-bar-light {
+  background-color: #fff !important;
+}
+
+.drop-shadow {
+  box-shadow: 0 0.5rem 1rem rgba(162, 162, 162, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15) !important;
+}
+.border-bottom {
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+a.nav-link {
+  color: #666;
+  font-weight: 600;
+}
+
+a.nav-link-circle-border {
+  border-radius: 1.6rem !important;
+  padding: 0;
+  justify-content: center;
+}

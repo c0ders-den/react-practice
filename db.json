@@ -1,0 +1,15 @@
+{
+  "tags": [
+    {
+      "label": "accepted",
+      "value": "accepted"
+    },
+    {
+      "label": "rejected",
+      "value": "rejected"
+    }
+  ],
+  "menus": [
+
+  ]
+}
