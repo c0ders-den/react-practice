@@ -20,7 +20,7 @@ class IconDropDown extends React.Component {
       case 'form':
         break
       case 'link':
-        e = 
+        e =
           <ClayDropDownItem href={item.action} data-method={item.method} rel="nofollow" key={i}>
             {item.label}
           </ClayDropDownItem>
@@ -28,8 +28,7 @@ class IconDropDown extends React.Component {
       default:
         break;
     }
-    console.log(e)
-    return (e)
+    return e
   }
 
   render() {
@@ -39,12 +38,12 @@ class IconDropDown extends React.Component {
         onActiveChange={(active) => this.setState({ active: active })}
         trigger={
           <ClayButton displayType={null} className="nav-link nav-link-circle-border">
-            Profile
+            <img src={this.props.icon} className="rounded-circle toolbar-icon"/>
           </ClayButton>
         }
       >
         {this.props.menuItems.map((item, i) => {
-          this.renderListElement(item, i)
+          return (this.renderListElement(item, i))
         })}
       </ClayDropDown>
     )

@@ -11,7 +11,7 @@ class AppLogo extends React.Component {
     return (
       <ClayNav>
         <ClayNav.Item>
-          <ClayLink href="#" className="nav-link">
+          <ClayLink href="/" className="nav-link">
             <img src={this.props.appLogo} />
           </ClayLink>
         </ClayNav.Item>
